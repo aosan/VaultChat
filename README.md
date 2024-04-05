@@ -21,6 +21,7 @@ Chat privately with your documents and a local language model.
 
 ## Installation on Linux
 Install Ollama from https://www.ollama.com
+
 Configure and deploy your desired LLM, mistral is a good first choice.
 
 ```Bash
@@ -28,7 +29,9 @@ ollama pull mistral
 ```
 
 VaultChat is tested on Linux only, in Preview for MacOS and Windows.
+
 Consult `.env.example` and copy the `.env.example` file to `.env` and update the configuration 
+
 Ensure you have Python 3.12 and pyenv installed on your Linux or MacOS. Then, go to the release package and run:
 
 ```Bash
@@ -66,6 +69,7 @@ python.bat docs_loader.sh
 ```
 
 Run `docs_loader.sh` every time you add or remove documents in private_documents.
+
 Remove `chroma_db` directory with your embeddings every time you wish to change the embeddings model configuration or chat with a new set of private documents.
 
 ### VaultChat with your Private Documents
@@ -97,7 +101,9 @@ Please create a PR with a single typo/issue/defect/feature.
 
 ## Roadmap
 VaultChat started as a week-end experimental project with the objective of learning the LLM ecosystem.
+
 The early releases are focused on bug fixes and usability improvements. It will remain a console version until features and functionality have matured.
+
 GUI and web interfaces will be provided at a later stage.
 
 ## Support

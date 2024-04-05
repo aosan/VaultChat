@@ -108,7 +108,11 @@ This software is released under the AGPL-3.0 license.
 
 ## Credit
 Private LLMs made easy with Ollama https://www.ollama.com
+
 Support for local LLMs with LangChain https://python.langchain.com
+
 PromptEngineer48 for the ingestion and retrieval inspiration https://github.com/PromptEngineer48/Ollama
+
 Personal Vault Project by Lucian https://github.com/dlucian/pvp
+
 NLP journey started with Norbert Z.

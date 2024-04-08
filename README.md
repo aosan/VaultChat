@@ -109,6 +109,15 @@ GUI and web interfaces will be provided at a later stage.
 ## Support
 VaultChat is an experimental project. Support is provided on a "best effort" basis.
 
+## Utensils
+Use the tools in the `utensils` directory to assist with your use of VaultChat.
+
+`epub2md` will convert an EPUB document to Markdown for a faster and more efficient embeddings creation.
+
+`pdf2md` will convert a PDF document to Markdown for a faster and more efficient embeddings creation.
+
+`evaluate_llm` will help you fine-tune your selection of ollama models and any other model fine-tuning.
+
 ## License
 This software is released under the AGPL-3.0 license.
 

@@ -117,7 +117,7 @@ chmod +x docs_loader.py vaultChat.py
 # Final instructions for smart and good looking customers
 printf "\n >>> Installation was successful!\n"
 printf "\n >>> Run './docs_loader.py' to prepare your private data.\n"
-printf "\n >>> Important! Run './docs_loader.py' again every time you change documents in the $SOURCE_DIRECTORY directory.\n"
+printf "\n >>> Important! Run './docs_loader.py' again every time you change documents in your directory.\n"
 printf "\n >>> Run './vaultChat.py' to start the application after your private data store creation or update.\n"
 
 # That's all, folks

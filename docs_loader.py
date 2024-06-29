@@ -35,7 +35,7 @@ from langchain_community.document_loaders import (
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 
 # Load environment variables
 default_num_processes = os.getenv('DEFAULT_NUM_PROCESSES')
@@ -266,9 +266,6 @@ def main():
             else:
                 db.add_documents(batch_texts)
                 
-        if db is not None:
-            db.persist()
-
     print(f"Documents are ready! You can now run vaultChat.py to query your model with your private documents")
 
 
